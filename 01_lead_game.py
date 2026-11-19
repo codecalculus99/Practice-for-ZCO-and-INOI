@@ -32,4 +32,7 @@ Keep a record in P1 and P2.
 Take the diff and if diff > 0 then player 1 is winner and lead by diff.
 Else if diff < 0 then player 2 is winner and lead by diff.
 Max diff will be the value of max lead
+
+Time: (O(N)) — one pass through all rounds.
+Space: (O(1)) — only a few variables; no list or array is needed
 """
